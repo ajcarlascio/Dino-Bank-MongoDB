@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony Carlascio's WEB322 Online Banking Assignment</title>
+    <style>
+body {
+    background-color: darkolivegreen;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form.login {
+    border: 0px solid black;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+article.container {
+    background-color: dimgray;
+    border: 10px solid black;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input#user {
+}
+
+button {
+    width: 100px;
+}
+
+h3 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+h3:hover {
+
+}
+img{
+    margin-left : 700px;
+}
+</style>
+</head>
+<body>
+    <h1>Welcome to Online Dino Bank</h1> <img src="tinydino.jpg" alt="logo" width="75" height="75">
+    <hr />
+    <form class="login" id="bankLogin" method="post" action="/" >
+        <article class="container">
+            <br /><br /><br /><br /><br /><br /><br /><br />
+            <input id="username" name="username" type="text" required placeholder="Enter Username here" value="" />
+            <br />
+            <input id="password" name="password" type="password" required placeholder="Enter Password here" value="" />
+            <br />
+            <button id="login" type="submit" value="submit">Submit</button>
+            <br />
+        </article>
+    </form>
+    <h1>{{data.errormessage1}} <br/> {{data.errormessage2}}</h1>
+</body>
+</html>

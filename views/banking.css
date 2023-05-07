@@ -1,0 +1,43 @@
+﻿body {
+    background-color: darkolivegreen;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form.login {
+    border: 0px solid black;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+article.container {
+    background-color: dimgray;
+    border: 10px solid black;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input#user {
+}
+
+button {
+    width: 100px;
+}
+
+h3 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+h3:hover {
+
+}

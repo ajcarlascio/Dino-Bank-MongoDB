@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony Carlascio's WEB322 Online Banking Assignment</title>
+    <style>
+body {
+    background-color: darkolivegreen;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form.login {
+    border: 0px solid black;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+article.container {
+    background-color: dimgray;
+    border: 10px solid black;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input#user {
+}
+
+button {
+    width: 100px;
+}
+
+h3 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+h3:hover {
+
+}
+img{
+    margin-left : 900px;
+}
+</style>
+</head>
+<body>
+    <form method="post" action="/account">
+        <article>
+            <h1>Online<br /></h1><h1>Banking<br /></h1><h1>System</h1>
+            <hr />
+        </article>
+        <h3 class = "first">{{data.username}}</h3>
+        <hr />
+        <nav>
+            <br />
+            <input id = "accountNo" name="accountNo" maxlength="10" placeholder="Account Number" value=""/>
+            <br/>
+            <br />
+            <input id="Savings" name="options" type="radio" value="Savings" />
+            <label for="Savings">Savings</label>
+            <br />
+            <input id="Chequings" name="options" type="radio" value="Chequings" />
+            <label for="Chequings">Chequings</label>
+            <br />
+            <br />
+            <button class="bSubmit" type="submit">Submit</button>
+        </nav>
+    </form>
+</body>
+</html>
